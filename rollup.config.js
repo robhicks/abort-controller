@@ -22,7 +22,6 @@ const umdOutro = `if (typeof module === "undefined" && typeof define === "undefi
 
 export default [
     {
-        external: ["event-target-shim"],
         input: "src/abort-controller.ts",
         output: {
             banner,
